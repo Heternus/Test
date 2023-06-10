@@ -1,4 +1,8 @@
 export function consoleHab(file)
 {
-  console.log(file)
+  if(file)
+  {
+    console.log(file)
+  }
+
 }
