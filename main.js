@@ -1,4 +1,4 @@
-function console(file)
+function consoleHab(file)
 {
   console.log(file)
 }
