@@ -1,8 +1,4 @@
-export function consoleHab(file)
+export default function consoleHab(file)
 {
-  if(file)
-  {
-    console.log(file)
-  }
-
+  console.log(file)
 }
