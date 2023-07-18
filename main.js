@@ -1,5 +1,4 @@
-console.log("Site ativo")
-export default function consoleHab(file)
+export function consoleHab(file)
 {
   console.log(file)
 }
