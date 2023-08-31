@@ -1,5 +1,4 @@
-export default function __notFind__(event)
+function __notFind__()
 {
-  event.preventDefault();
   console.log("Elemento não achado")
 }
