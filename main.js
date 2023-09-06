@@ -19,6 +19,12 @@ function zalgo(texto) {
   return zalgo_texto;
 }
 
+document.getElementById('sndEffect').addEventListener('click', (e) => {
+  e.preventDefault();
+  zalgo(document.getElementById('glitchyText').value)
+});
+
+
 // Testar a função com um exemplo
 var texto_normal = document.getElementById("glitchyText").value
 var texto_zalgo = zalgo(texto_normal);
